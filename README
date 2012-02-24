@@ -1,0 +1,10 @@
+Blackjack Game using Scheme. 
+
+Install DrRacket and use http://www.neilvandyke.org/racket-sicp/
+
+
+Run blackjack.rkt
+
+To start game
+
+> (play-blackjack)
