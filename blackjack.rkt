@@ -81,11 +81,6 @@
 
 ;; You can only get four aces in one game. 
 ;; if you have more than one ace only one can be 11 without busting.
-(define (length list)
-  (define (iter list result)
-    (if (null? list) result
-        (iter (cdr list) (+ 1 result))))
-  (iter list 0))
 
 (define (count-total list)
   (let ((track-aces (ace-count list)) ;Uses ace count procedure to figure out how many aces does a list have. 
